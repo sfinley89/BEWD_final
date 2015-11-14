@@ -1,0 +1,12 @@
+<center>
+		<h1> I am yoda! What do you want me to say? </h1><br>
+<%= image_tag @result["data"]["image_url"] %> <br>
+
+	<%= form_tag "/welcome/yoda"  %>
+	<%= text_field_tag :sentence %>
+	<%= submit_tag "Submit" %>
+
+	 
+
+
+</center>

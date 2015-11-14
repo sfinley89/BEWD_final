@@ -1,5 +1,24 @@
 source 'https://rubygems.org'
 
+# unirest http://unirest.io/ruby
+gem 'unirest', '~> 1.1', '>= 1.1.2'
+
+# HTTParty
+gem 'httparty', '~> 0.13.7'
+
+gem 'json', '~> 1.8', '>= 1.8.3'
+
+gem 'responders', '~> 2.0'
+
+ # Gem from https://rubygems.org/gems/giphy/versions/3.0.0
+ # gifs https://github.com/sebasoga/giphy
+gem 'giphy', '~> 3.0'
+
+# Geocoding https://github.com/alexreisner/geocoder
+gem 'geocoder'
+
+# Yelp https://github.com/Yelp/yelp-ruby
+gem 'yelp', require: 'yelp'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
@@ -11,6 +30,10 @@ gem 'pg', '~> 0.18.3'
 
 # Devise http://guides.railsgirls.com/devise/
 gem 'devise'
+
+# Bootstrap, integrating bootstrap with rails http://www.gotealeaf.com/blog/integrating-rails-and-bootstrap-part-1
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

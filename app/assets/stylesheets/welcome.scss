@@ -8,7 +8,7 @@ $primary-color: #333;
 body {
   font: 100% $font-stack;
   color: #333;
-  background: url('railspic.jpg');
+  background: url('https://s3.amazonaws.com/bewd-production/railspic.jpg') no-repeat center center fixed;
   background-repeat: no-repeat;
   background-size: 100%;
 }

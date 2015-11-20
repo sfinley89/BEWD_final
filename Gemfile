@@ -31,6 +31,9 @@ gem 'pg', '~> 0.18.3'
 # Devise http://guides.railsgirls.com/devise/
 gem 'devise'
 
+# Paperclip https://github.com/thoughtbot/paperclip
+gem 'paperclip', '~> 4.3', '>= 4.3.1'
+
 # Bootstrap, integrating bootstrap with rails http://www.gotealeaf.com/blog/integrating-rails-and-bootstrap-part-1
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
